@@ -11,64 +11,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon" >
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     
     <main>
-        <!-- home -->
-        <div class="home">
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-            <div class="dew"></div>
-        </div>
         <div class="logo">
+            <img src="img/logo.png" alt="">  
+        </div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+            <div class="dew"></div>
+        <!-- home -->
+        
+    <div class="home">
+            
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li id="home">
+                <i class="fa-solid fa-house-chimney"></i>
+                <h5 >Home</h5>
+            </li>
+            <li id="about">
+                <i class="fa-solid fa-user"></i>
+                <h5 >About</h5>
+            </li>
+            <li id="skills">
+                <i class="fa-solid fa-brain"></i>
+                <h5 >Skills</h5>
+            </li>
+            <li id="portfolio">
                 
-        </div>
-        <div class="sidebar">
-            <ul>
-                <li id="home">
-                    <i class="fa-solid fa-house-chimney"></i>
-                    <h5 >Home</h5>
-                </li>
-                <li id="about">
-                    <i class="fa-solid fa-user"></i>
-                    <h5 >About</h5>
-                </li>
-                <li id="skills">
-                    <i class="fa-solid fa-brain"></i>
-                    <h5 >Skills</h5>
-                </li>
-                <li id="portfolio">
-                    
-                    <i class="fa-sharp fa-solid fa-toolbox"></i>
-                    <h5 >Portfolio</h5>
-                </li>
-                <li id="contact">
-                    <i class="fa-solid fa-phone"></i>
-                    <h5 >Contact</h5>
-                </li>
-            </ul>
-        </div>
-    </main>
-
-    <!-- about -->
+                <i class="fa-sharp fa-solid fa-toolbox"></i>
+                <h5 >Portfolio</h5>
+            </li>
+            <li id="contact">
+                <i class="fa-solid fa-phone"></i>
+                <h5 >Contact</h5>
+            </li>
+        </ul>
+    </div>
+        
+    
     <section class="about">
         <div class="content">
             <h1>
@@ -81,12 +83,23 @@
                 </div>
                 
             </div>
-            <div class="short-text">My full name is <p>KARIMOV ABDULAZIZ</p>
-            Graduated INHA university in Tashkent.Nowdays, working as front-end developer.
+            <div class="short-text">
+            <div >
+            <p>Full name is </p>
+            <h2>KARIMOV ABDULAZIZ</h2></div>
+            <p>Graduated INHA university in Tashkent.
+            </p>
+            <p>
+                    Nowdays, working as front-end developer.
+                 </p>
+            
             </div>
             <div class="short-text">
-            As skilled Front-end developer, I am dedicated to turning ideas into innovative web application. Explore my latest projects, showcasing my expertise in React.js and web development.
+                <p>
+                    
+            As skilled Front-end developer, I am dedicated to turning ideas into innovative web application. Explore my latest projects, showcasing my expertise in web development.
             Moreover, I love designing and believe that design is about more than just making things look pretty - it's about solving problems and creating intuitive, enjoyible experiences.
+                </p>
             </div>
         </div>
         
@@ -94,17 +107,94 @@
     </section>
     <section class="skills">
         <div class="content">
+            <div class="info-box">
+                <input type="checkbox" name="openOne" id="lang" value ="lang">
+                <div class="label">
+                    <label for="lang">
+                        <h1>Languages</h1>
+                        <div class="navbtn">
+                            <span class="navbtn-icon">
+                                
+                            </span>
+                        </div>
+                    </label>
+                </div>
+                    
+                    <div class="info">
+                        <p>+ Uzbek</p>
+                        <p>+ Russian</p>
+                        <p>+ English</p>
+                        <p>Hindi-English</p>
+                        <p>Korean-English</p>
+                    </div>
+            </div>
+            <div class="info-box">
+                <input type="checkbox" name="openOne" id="pk" value="pk">
+                <div class="label"><label for="pk"> 
+                    <h1>Professional knowledge</h1>
+                    <div class="navbtn">
+                        <span class="navbtn-icon">
 
+                        </span>
+                    </div>
+                </label></div>
+                
+                <div class="info">
+                    <p>+ Html</p>
+                    <p>+ Css</p>
+                    <p>+ Scss</p>
+                    <p>+ javascript</p>
+                    <p>+ react</p>
+                </div>
+            </div>
+            <div class="info-box">
+                <input type="checkbox" name="openOne" id="chr" value="chr">
+                <div class="label"><label for="chr">
+                    <h1>Characteritcs</h1>
+                    <div class="navbtn">
+                        <span class="navbtn-icon">
+
+                        </span>
+                    </div>
+                </label></div>
+                    
+                <div class="info">
+                    <p>+ Creative</p>
+                    <p>+ Adaptive</p>
+                    <p>+ Fast learner</p>
+                    <p>+ Good communication skills</p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="portfolio">
+        
         <div class="content">
+            <h1>Few examples from 50 and more web-sites made by me:</h1>
+            <div class="catalog">
+                <a href="https://seekerofmiracle.github.io/react-animated/"></a>
+                <a href="https://seekerofmiracle.github.io/check3/"></a>
+                <a href="https://seekerofmiracle.github.io/check2/"></a>
+                <a href="https://seekerofmiracle.github.io/check1/"></a>
+                <a href="https://seekerofmiracle.github.io/pigGame/"></a>
+                <a href="https://seekerofmiracle.github.io/check4/"></a>
+            </div>
             
         </div>
     </section>
     <section class="contact">
-
+        <a href="https://www.linkedin.com/in/abdulaziz-karimov-8b7856272/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://t.me/SeekerOfMiracle"><i class="fa-brands fa-telegram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100091894478304"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/SeekerOfMiracle"><i class="fa-brands fa-github" ></i></a>
     </section>
+    <div class="sidebar-btn">
+        <span></span>
+        <span></span>
+    </div>
+    </main>
+    
+
 </body>
 <script  src="script.js"></script>
 </html>
